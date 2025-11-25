@@ -11,9 +11,9 @@ const morgan = require('morgan');
 require('dotenv').config();
 
 // Import modules
-const mqttClient = require('./src/mqtt/mqttClient');
-const { initializeFirebase, db, storage } = require('./src/firebase/firebaseAdmin');
-const { findMatchingFace } = require('./src/utils/faceMatch');
+const mqttClient = require('../src/mqtt/mqttClient');
+const { initializeFirebase, db, storage } = require('../src/firebase/firebaseAdmin');
+const { findMatchingFace } = require('../src/utils/faceMatch');
 
 // Initialize Express
 const app = express();
