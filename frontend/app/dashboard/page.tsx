@@ -153,18 +153,7 @@ export default function DashboardPage() {
       <SnowEffect />
       <RealtimeCounter count={peopleCount} />
 
-      {/* CSS Animation cho thanh quét */}
-      <style jsx>{`
-        @keyframes scan {
-          0% { top: 0%; opacity: 0; }
-          15% { opacity: 1; }
-          85% { opacity: 1; }
-          100% { top: 100%; opacity: 0; }
-        }
-        .scan-line {
-          animation: scan 3s linear infinite;
-        }
-      `}</style>
+    
 
       {/* Header */}
       <div className="z-10 text-center mb-8 pt-4">
