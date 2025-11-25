@@ -143,3 +143,22 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Heavy folders (media, uploads, static, etc.)
+uploads/
+public/uploads/
+static/
+media/
+tmp/
+logs/
+data/
+storage/
+
+# More heavy folders
+datasets/
+checkpoints/
+models/
+output/
+artifacts/
+cache/
+snapshots/
